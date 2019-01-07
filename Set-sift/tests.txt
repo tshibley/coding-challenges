@@ -1,0 +1,388 @@
+Test1: 
+
+15
+blue #
+green $
+blue AA
+yellow @
+blue @@@
+green A
+yellow $$$
+yellow @@@
+yellow HHH
+yellow #
+yellow @@
+blue a
+blue sss
+green a
+green @
+
+Test 2: 
+
+28
+blue hhh
+yellow @
+green ##
+yellow ###
+blue AA
+green SSS
+blue ###
+yellow s
+yellow ##
+blue H
+green A
+blue $
+green SS
+green ###
+blue ss
+yellow $
+green aaa
+green AA
+yellow sss
+green aa
+green S
+green HH
+yellow AA
+yellow ss
+green h
+blue $$
+blue aa
+green sss
+
+Test 3, small input: 
+
+3
+blue h
+blue a
+blue s
+
+Test 4, no sets: 
+
+3
+blue h
+blue h
+blue s
+
+Test 5, max input size: 
+
+30
+yellow AAA
+blue hhh
+green #
+yellow @
+green ##
+yellow ###
+blue AA
+green SSS
+blue ###
+yellow s
+yellow ##
+blue H
+green A
+blue $
+green SS
+green ###
+blue ss
+yellow $
+green aaa
+green AA
+yellow sss
+green aa
+green S
+green HH
+yellow AA
+yellow ss
+green h
+blue $$
+blue aa
+green sss
+
+Test 5, max input size, max number of disjoint sets, sorted input: 
+
+30
+yellow a
+blue a
+green a
+yellow s
+blue s
+green s
+yellow h
+blue h
+green h
+yellow A
+blue A
+green A
+yellow S
+blue S
+green S
+yellow H
+blue H
+green H
+yellow @
+blue @
+green @
+yellow $
+blue $
+green $
+yellow #
+blue #
+green #
+yellow aa
+blue aa
+green aa
+
+Test 6, max input size, max number of disjoint sets, unsorted input:
+
+30
+green aa
+yellow #
+yellow S
+green S
+blue $
+green h
+green A
+blue h
+blue @
+yellow h
+blue H
+green a
+yellow a
+yellow @
+blue S
+blue s
+blue A
+yellow aa
+blue a
+yellow A
+yellow H
+yellow s
+green $
+green #
+blue aa
+green @
+green s
+blue #
+green H
+yellow $
+
+Test 7 stress test (Remove size check to run) Test with all set cards, sorted: 
+
+81
+yellow a
+blue a
+green a
+yellow s
+blue s
+green s
+yellow h
+blue h
+green h
+yellow A
+blue A
+green A
+yellow S
+blue S
+green S
+yellow H
+blue H
+green H
+yellow @
+blue @
+green @
+yellow $
+blue $
+green $
+yellow #
+blue #
+green #
+yellow aa
+blue aa
+green aa
+yellow ss
+blue ss
+green ss
+yellow hh
+blue hh
+green hh
+yellow AA
+blue AA
+green AA
+yellow SS
+blue SS
+green SS
+yellow HH
+blue HH
+green HH
+yellow @@
+blue @@
+green @@
+yellow $$
+blue $$
+green $$
+yellow ##
+blue ##
+green ##
+yellow aaa
+blue aaa
+green aaa
+yellow sss
+blue sss
+green sss
+yellow hhh
+blue hhh
+green hhh
+yellow AAA
+blue AAA
+green AAA
+yellow SSS
+blue SSS
+green SSS
+yellow HHH
+blue HHH
+green HHH
+yellow @@@
+blue @@@
+green @@@
+yellow $$$
+blue $$$
+green $$$
+yellow ###
+blue ###
+green ###
+
+Test 8 stress test (Remove size check to run) Test with all set cards, unsorted: 
+
+81
+green $$
+green H
+blue $$$
+yellow ss
+yellow $$$
+green AA
+yellow h
+blue ss
+yellow HH
+yellow H
+blue @
+yellow s
+green $
+yellow #
+yellow @@
+green @
+yellow sss
+blue S
+yellow a
+blue ##
+yellow ##
+blue ###
+green h
+yellow aaa
+green s
+blue HH
+green HHH
+green SSS
+green ##
+blue AAA
+green ###
+yellow SSS
+blue $$
+blue HHH
+green $$$
+blue sss
+blue a
+yellow hh
+green A
+green HH
+blue s
+blue @@@
+green #
+blue A
+green aaa
+green AAA
+green aa
+blue $
+yellow S
+yellow $$
+blue SSS
+yellow AA
+green @@
+yellow aa
+green S
+yellow AAA
+blue SS
+blue hhh
+blue aa
+yellow ###
+green @@@
+blue @@
+green a
+yellow A
+yellow @@@
+blue h
+green ss
+blue AA
+blue H
+green hhh
+green SS
+blue hh
+yellow SS
+yellow HHH
+blue aaa
+yellow @
+blue #
+green hh
+green sss
+yellow hhh
+yellow $
+
+
+Test 9, Most possible cards without a set: 
+
+20
+green a
+green aa
+green sss
+blue $$$
+blue SSS
+blue @
+blue @@
+yellow sss
+blue ss
+blue s
+blue a
+blue aa
+yellow ###
+green ##
+green #
+green @
+green @@
+green hhh
+blue ###
+green HHH
+
+Test 10, only one disjoint set:
+
+21
+green a
+green aa
+green sss
+blue $$$
+blue SSS
+blue @
+blue @@
+yellow sss
+blue ss
+blue s
+blue a
+blue aa
+yellow ###
+green ##
+green #
+green @
+green @@
+green hhh
+blue ###
+green HHH
+blue ahh
+
+
